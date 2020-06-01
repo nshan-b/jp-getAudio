@@ -53,7 +53,7 @@ def main(argv):
     driver = webdriver.Chrome(options=options, executable_path='C:\BrowserDrivers\chromedriver.exe')
     driver.set_window_size(1440, 900)
 
-    print('Use CTRL+C to quit')
+    print('Use CTRL+C to quit :)')
     while True:
         get_request(driver, output_folder)
 
